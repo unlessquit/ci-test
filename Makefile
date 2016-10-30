@@ -6,3 +6,4 @@ release-prod:
 
 release-staging:
 	echo RELEASED TO STAGING
+	env
