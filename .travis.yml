@@ -13,11 +13,11 @@ services:
 deploy:
   - provider: script
     skip_cleanup: true # use exactly same stuff for deploy as for test
+    script: make release-staging
+    on:
+      all_branches: true
+  - provider: script
+    skip_cleanup: true # use exactly same stuff for deploy as for test
     script: make release-prod
     on:
       branch: master
-  - provider: script
-    skip_cleanup: true # use exactly same stuff for deploy as for test
-    script: make release-staging
-    on:
-      branch: maio/next
