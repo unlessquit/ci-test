@@ -20,4 +20,4 @@ deploy:
     skip_cleanup: true # use exactly same stuff for deploy as for test
     script: make release-staging
     on:
-      all_branches: true
+      branch: maio/next
