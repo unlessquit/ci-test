@@ -1,0 +1,40 @@
+* Automatic Release
+- [X] master branch :: production
+- [ ] staging tag :: staging
+* Environment
+** Example push to maio/next branch ([[https://travis-ci.org/unlessquit/ci-test/builds/171829362][unlessquit/ci-test/builds/171829362]])
+#+BEGIN_EXAMPLE
+TRAVIS_PULL_REQUEST_BRANCH=
+TRAVIS_COMMIT_RANGE=a8722394a239...99c6489e45c7
+TRAVIS_STACK_LANGUAGES=__sugilite__ android c c++ clojure cplusplus cpp crystal csharp d dart default elixir erlang go groovy haskell haxe hhvm java julia legacy mega node_js perl perl6 php pure_java python r ruby rust scala universe
+TRAVIS_STACK_JOB_BOARD_REGISTER=/.job-board-register.yml
+TRAVIS_JOB_ID=171829363
+TRAVIS_BUILD_DIR=/home/travis/build/unlessquit/ci-test
+TRAVIS=true
+HAS_JOSH_K_SEAL_OF_APPROVAL=true
+TRAVIS_STACK_FEATURES=basic chromium disabled-ipv6 docker docker-compose firefox go-toolchain google-chrome memcached mongodb nodejs_interpreter perl_interpreter perlbrew phantomjs postgresql python_interpreter rabbitmq redis ruby_interpreter sphinxsearch sqlite xserver
+CONTINUOUS_INTEGRATION=true
+TRAVIS_BRANCH=maio/next
+TRAVIS_OS_NAME=linux
+TRAVIS_BUILD_NUMBER=7
+TRAVIS_TEST_RESULT=0
+HISTFILESIZE=2000
+PWD=/home/travis/build/unlessquit/ci-test
+TRAVIS_EVENT_TYPE=push
+TRAVIS_STACK_NAME=sugilite
+HOME=/home/travis
+LOGNAME=travis
+TRAVIS_PULL_REQUEST_SHA=
+CI=true
+TRAVIS_JOB_NUMBER=7.1
+TRAVIS_COMMIT=99c6489e45c72fecb3fbc862465739ba862255c5
+TRAVIS_NODE_VERSION=6
+USER=travis
+TRAVIS_LANGUAGE=node_js
+TRAVIS_STACK_TIMESTAMP=2016-08-22 00:15:53 UTC
+TRAVIS_PULL_REQUEST=false
+TRAVIS_SECURE_ENV_VARS=false
+TRAVIS_REPO_SLUG=unlessquit/ci-test
+TRAVIS_BUILD_ID=171829362
+TRAVIS_TAG=
+#+END_EXAMPLE
